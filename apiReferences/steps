@@ -1,0 +1,28 @@
+
+15.1 Guide
+https://cdn.f5.com/websites/devcentral.f5.com/downloads/icontrol-rest-api-user-guide-15-1-0.pdf
+
+APM api endpoint
+https://clouddocs.f5.com/api/icontrol-rest/APIRef_tm_apm.html
+
+ SSO SAML resources
+https://clouddocs.f5.com/api/icontrol-rest/APIRef_tm_apm_sso_saml.html
+
+
+SSO SAML resource
+https://clouddocs.f5.com/api/icontrol-rest/APIRef_tm_apm_sso_saml-resource.html
+
+SSO SAML sp connector
+https://clouddocs.f5.com/api/icontrol-rest/APIRef_tm_apm_sso_saml-sp-connector.html
+
+Apply policy 
+https://clouddocs.f5.com/api/icontrol-rest/APIRef_tm_apm_policy_agent.html
+
+Assign resources
+https://clouddocs.f5.com/api/icontrol-rest/APIRef_tm_apm_policy_agent_resource-assign.html
+
+https://code.vmware.com/docs/12676/vmware-cloud-director-api-programming-guide/GUID-6A10E99C-9165-4E49-8BC0-ADC960C60BE2.html#/GUID-2DE23667-A301-4DB3-B34D-7246F19BF8CA.html
+
+
+commit
+run jenkins

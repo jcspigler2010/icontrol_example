@@ -1,0 +1,6 @@
+{
+    "name": "{{saml_resource}}",
+    "locationSpecific": "false",
+    "publishOnWebtop": "true",
+    "ssoConfigSaml": "/Common/{{saml_idp_resource}}"
+}

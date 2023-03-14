@@ -1,0 +1,6 @@
+{
+    "spConnectors": [
+        "/Common/{{saml_sp_resource}}"
+    ]
+
+}

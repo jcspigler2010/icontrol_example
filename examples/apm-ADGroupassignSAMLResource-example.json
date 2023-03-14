@@ -1,0 +1,8 @@
+"rules": [
+    {
+        "expression": "expr { [string tolower [mcget -decode {session.ad.last.attr.memberOf}]] contains [string tolower \\\"CN=TestGroup1,\\\"] }",
+        "samlResources": [
+            "/Common/test_in_gui"
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+{
+     "name": "saml_test_sp",
+     "partition": "Common",
+     "fullPath": "/Common/saml_test_sp",
+     "description": "Tests saml sp",
+     "encryptionType": "aes128",
+     "entityId": "urn:federation:MicrosoftOnline",
+     "isAuthnRequestSigned": "false",
+     "locationSpecific": "false",
+     "signatureType": "rsa-sha256",
+     "singleLogoutBinding": "http-post",
+     "singleLogoutUriPath": "/",
+     "spLocation": "external",
+     "wantAssertionEncrypted": "false",
+     "wantAssertionSigned": "true",
+     "wantResponseSigned": "false",
+     "assertionConsumerServices": [
+         {
+             "binding": "http-post",
+             "index": 0,
+             "isDefault": "true",
+             "uri": "https://login.microsoftonline.com/login.srf"
+         },
+         {
+             "binding": "paos",
+             "index": 2,
+             "isDefault": "false",
+             "uri": "https://login.microsoftonline.com/login.srf"
+         }
+     ]
+ }

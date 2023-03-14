@@ -1,0 +1,35 @@
+{
+    "kind": "tm:apm:sso:saml:samlstate",
+    "name": "test",
+    "partition": "Common",
+    "fullPath": "/Common/test",
+    "generation": 1,
+    "selfLink": "https://localhost/mgmt/tm/apm/sso/saml/~Common~test?ver=15.1.0.2",
+    "assertionValidity": 600,
+    "authContextMethod": "urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport",
+    "encryptSubject": "false",
+    "encryptionTypeSubject": "aes128",
+    "entityId": "https://test.idp.com",
+    "idpCertificate": "/Common/default.crt",
+    "idpCertificateReference": {
+        "link": "https://localhost/mgmt/tm/sys/file/ssl-cert/~Common~default.crt?ver=15.1.0.2"
+    },
+    "idpScheme": "https",
+    "idpSignkey": "/Common/default.key",
+    "idpSignkeyReference": {
+        "link": "https://localhost/mgmt/tm/sys/file/ssl-key/~Common~default.key?ver=15.1.0.2"
+    },
+    "keyTransportAlgorithm": "rsa-oaep",
+    "locationSpecific": "false",
+    "logLevel": "notice",
+    "samlProfiles": [
+        "web-browser-sso",
+        "ecp"
+    ],
+    "subjectType": "email-address",
+    "subjectValue": "%{session.ad.last.attr.name}",
+    "spConnectors": [
+        "/Common/saml_office365",
+        "/Common/saml_test_sp"
+    ]
+}

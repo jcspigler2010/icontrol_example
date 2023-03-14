@@ -1,0 +1,6 @@
+{
+     "name": "{{saml_sp_resource}}",
+     "partition": "Common",
+     "description": "{{saml_sp_resource}} saml sp",
+     "importMetadata": "/var/config/rest/downloads/{{saml_sp_resource}}.xml"
+}
