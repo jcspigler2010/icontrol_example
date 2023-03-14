@@ -22,7 +22,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jcspigler2010/f5_saml_staging_icontrol">
+  <a href="https://github.com/jcspigler2010/icontrol_example">
     <img src="images/default-ogimage.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -30,7 +30,7 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/jcspigler2010/f5_saml_staging_icontrol"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jcspigler2010/icontrol_example"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
